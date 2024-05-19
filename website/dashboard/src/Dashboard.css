@@ -1,0 +1,78 @@
+/* Dashboard.css */
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.chart-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.chart-modal {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border: 2px solid #ccc;
+    z-index: 10;
+    padding: 20px;
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    display: none;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: auto;
+    z-index: 1000;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.alert {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.alert-exit {
+    opacity: 0;
+}
+
+.alert-fixed-top {
+    position: fixed;
+    top: 60px; /* Adjust as needed to clear the navbar or header */
+    left: 0;
+    right: 0;
+    z-index: 1050; /* Ensures it's above most other content */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.alert-fixed-top .alert {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
