@@ -91,7 +91,7 @@ To use Mininet, you have to run these `hping3` commands from an xterm terminal t
 - **Kaggle Datasets**: Utilized datasets from Kaggle for initial model training.
   - [DDoS Datasets by devendra416](https://www.kaggle.com/datasets/devendra416/ddos-datasets)
 - **Custom Dataset**: Additional dataset available at:
-  - [DDoS Dataset by Muhammad Owais Siyal](https://www.kaggle.com/datasets/mowaissiyal/ddos-dataset)
+  - [DDoS Dataset by Muhammad Owais Siyal](https://www.kaggle.com/datasets/mowaissiyal/ddos-dataset-made-with-mininet)
 
 ## Final Report
 For more detailed information, please refer to the [Final Report](Final%20Report.pdf).
